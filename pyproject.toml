@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pic-uploader"
+version = "0.1.0"
+description = "takes images as input"
+authors = ["them1n9 <iamanidiotm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^4.42.0"
+google-generativeai = "^0.7.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
