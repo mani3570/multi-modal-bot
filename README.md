@@ -44,7 +44,7 @@ The Multi-Modal Chatbot is a Python application that takes images as input and u
 
 To start the chatbot, use the following command:
 ```bash
-bot
+python app.py
 ```
 
 ## Usage

@@ -1,20 +1,23 @@
 [tool.poetry]
 name = "multi-modal-bot"
 version = "0.1.0"
-description = "takes images as input"
+description = "multi modal chatbot"
 authors = ["them1n9 <iamanidiotm@gmail.com>"]
 readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-gradio = "^4.42.0"
-google-generativeai = "^0.7.2"
+gradio = "^4.43.0"
+numpy = "^2.1.1"
+pillow = "^10.4.0"
 python-dotenv = "^1.0.1"
+google-generativeai = "^0.7.2"
+
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-bot = "app.demo:launch"
+bot = "app:main"

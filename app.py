@@ -68,7 +68,7 @@ def generate_response(text_input, file_inputs=None, chat_history=None):
     return "", chat_history
 
 # Create a Gradio interface with Blocks
-with gr.Blocks(title="Gemini pro / pro vision") as demo:
+with gr.Blocks(title="Gemini vision") as demo:
     gr.Markdown("# Chat Bot M1N9")
 
     # Define the Chatbot component
@@ -76,7 +76,7 @@ with gr.Blocks(title="Gemini pro / pro vision") as demo:
 
     # Define the Textbox and Image components
     msg = gr.Textbox(show_copy_button=True, placeholder="Type your message here...")
-    
+
     # Row for multiple image inputs
     with gr.Row():
         img1 = gr.Image()
