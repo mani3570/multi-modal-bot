@@ -1,4 +1,3 @@
-```markdown
 # Multi-Modal Chatbot
 
 ## Overview
